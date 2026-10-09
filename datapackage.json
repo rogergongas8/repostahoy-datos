@@ -1,0 +1,58 @@
+{
+  "name": "precios-carburantes-espana",
+  "title": "Precio medio de los carburantes en España",
+  "description": "Series mensuales, semanales y diarias del precio medio de la gasolina y el diésel en España y en cada provincia, en euros por litro con impuestos incluidos. Media simple de los precios que las gasolineras comunican al Ministerio para la Transición Ecológica y el Reto Demográfico. Actualizado cada día.",
+  "homepage": "https://www.repostahoy.es",
+  "licenses": [
+    {"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0 International"}
+  ],
+  "sources": [
+    {"title": "Geoportal de Hidrocarburos (Ministerio para la Transición Ecológica y el Reto Demográfico)", "path": "https://geoportalgasolineras.es/"},
+    {"title": "Reposta Hoy", "path": "https://www.repostahoy.es"}
+  ],
+  "keywords": ["precios de los carburantes", "gasolina", "diésel", "España", "datos abiertos"],
+  "resources": [
+    {"name": "mensual-espana", "path": "data/mensual_espana.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "mes", "type": "string", "description": "Mes, AAAA-MM"},
+       {"name": "combustible", "type": "string"},
+       {"name": "precio_medio", "type": "number", "description": "EUR/litro (GNC: EUR/kg), impuestos incluidos"},
+       {"name": "mes_completo", "type": "boolean"}]}},
+    {"name": "semanal-espana", "path": "data/semanal_espana.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "semana_inicio", "type": "date", "description": "Lunes de la semana completa (lunes a domingo)"},
+       {"name": "combustible", "type": "string"},
+       {"name": "precio_medio", "type": "number", "description": "EUR/litro, impuestos incluidos"}]}},
+    {"name": "diario-espana", "path": "data/diario_espana.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "fecha", "type": "date"},
+       {"name": "combustible", "type": "string"},
+       {"name": "precio_medio", "type": "number", "description": "EUR/litro, impuestos incluidos"}]}},
+    {"name": "semanal-provincias", "path": "data/semanal_provincias.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "semana_inicio", "type": "date"},
+       {"name": "provincia", "type": "string", "description": "Identificador de provincia, ver provincias.csv"},
+       {"name": "combustible", "type": "string"},
+       {"name": "precio_medio", "type": "number", "description": "EUR/litro, impuestos incluidos"}]}},
+    {"name": "diario-provincias", "path": "data/diario_provincias.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "fecha", "type": "date"},
+       {"name": "provincia", "type": "string", "description": "Identificador de provincia, ver provincias.csv"},
+       {"name": "combustible", "type": "string"},
+       {"name": "precio_medio", "type": "number", "description": "EUR/litro, impuestos incluidos"}]}},
+    {"name": "provincias", "path": "data/provincias.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "provincia", "type": "string"},
+       {"name": "nombre", "type": "string"},
+       {"name": "impuestos_propios", "type": "boolean", "description": "Canarias, Ceuta y Melilla: impuestos propios sobre los carburantes"}],
+       "primaryKey": "provincia"}},
+    {"name": "combustibles", "path": "data/combustibles.csv", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+     "schema": {"fields": [
+       {"name": "combustible", "type": "string"},
+       {"name": "nombre", "type": "string"},
+       {"name": "unidad", "type": "string"},
+       {"name": "descripcion", "type": "string"},
+       {"name": "series_diaria_y_semanal", "type": "boolean"}],
+       "primaryKey": "combustible"}}
+  ]
+}

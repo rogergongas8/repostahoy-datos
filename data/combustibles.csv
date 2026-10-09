@@ -1,0 +1,7 @@
+combustible,nombre,unidad,descripcion,series_diaria_y_semanal
+diesel,Diésel,EUR/litro,Gasóleo A (el diésel normal),true
+diesel_premium,Diésel Premium,EUR/litro,Gasóleo premium (aditivado),true
+gasolina_95,Gasolina 95,EUR/litro,Gasolina 95 E5,true
+gasolina_98,Gasolina 98,EUR/litro,Gasolina 98 E5,true
+glp,GLP,EUR/litro,Gases licuados del petróleo (autogás),false
+gnc,GNC,EUR/kg,Gas natural comprimido (se vende por kilo),false

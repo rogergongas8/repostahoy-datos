@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si usas estos datos, cítalos así."
+title: "Precio medio de los carburantes en España: series mensuales, semanales y diarias"
+type: dataset
+authors:
+  - name: "Reposta Hoy"
+    website: "https://www.repostahoy.es"
+repository-code: "https://github.com/rogergongas8/repostahoy-datos"
+url: "https://www.repostahoy.es"
+license: CC-BY-4.0
+abstract: "Precio medio de la gasolina y el diésel en España, para el conjunto del país y por provincia, en series mensuales, semanales y diarias, con impuestos incluidos. Elaborado a partir de los datos abiertos del Ministerio para la Transición Ecológica y el Reto Demográfico."
+keywords:
+  - precios de los carburantes
+  - gasolina
+  - diésel
+  - España
+  - datos abiertos
+date-released: 2026-10-09

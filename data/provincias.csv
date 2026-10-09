@@ -1,0 +1,53 @@
+provincia,nombre,impuestos_propios
+a-coruna,A Coruña,false
+alava,Araba/Álava,false
+albacete,Albacete,false
+alicante,Alicante,false
+almeria,Almería,false
+asturias,Asturias,false
+avila,Ávila,false
+badajoz,Badajoz,false
+barcelona,Barcelona,false
+bizkaia,Bizkaia,false
+burgos,Burgos,false
+caceres,Cáceres,false
+cadiz,Cádiz,false
+cantabria,Cantabria,false
+castellon,Castellón/Castelló,false
+ceuta,Ceuta,true
+ciudad-real,Ciudad Real,false
+cordoba,Córdoba,false
+cuenca,Cuenca,false
+gipuzkoa,Gipuzkoa,false
+girona,Girona,false
+granada,Granada,false
+guadalajara,Guadalajara,false
+huelva,Huelva,false
+huesca,Huesca,false
+illes-balears,Illes Balears,false
+jaen,Jaén,false
+la-rioja,La Rioja,false
+las-palmas,Las Palmas,true
+leon,León,false
+lleida,Lleida,false
+lugo,Lugo,false
+madrid,Madrid,false
+malaga,Málaga,false
+melilla,Melilla,true
+murcia,Murcia,false
+navarra,Navarra,false
+ourense,Ourense,false
+palencia,Palencia,false
+pontevedra,Pontevedra,false
+salamanca,Salamanca,false
+santa-cruz-de-tenerife,Santa Cruz de Tenerife,true
+segovia,Segovia,false
+sevilla,Sevilla,false
+soria,Soria,false
+tarragona,Tarragona,false
+teruel,Teruel,false
+toledo,Toledo,false
+valencia,Valencia/València,false
+valladolid,Valladolid,false
+zamora,Zamora,false
+zaragoza,Zaragoza,false
