@@ -1,4 +1,12 @@
 mes,combustible,precio_medio,mes_completo
+2007-01,diesel,0.883,true
+2007-01,diesel_premium,0.930,true
+2007-01,gasolina_95,0.940,true
+2007-01,gasolina_98,1.048,true
+2007-02,diesel,0.886,true
+2007-02,diesel_premium,0.935,true
+2007-02,gasolina_95,0.944,true
+2007-02,gasolina_98,1.052,true
 2007-03,diesel,0.905,true
 2007-03,diesel_premium,0.960,true
 2007-03,gasolina_95,0.989,true
@@ -1255,7 +1263,7 @@ mes,combustible,precio_medio,mes_completo
 2026-09,gnc,1.821,true
 2026-10,diesel,1.896,false
 2026-10,diesel_premium,1.988,false
-2026-10,gasolina_95,1.793,false
-2026-10,gasolina_98,1.949,false
+2026-10,gasolina_95,1.792,false
+2026-10,gasolina_98,1.948,false
 2026-10,glp,1.095,false
-2026-10,gnc,1.914,false
+2026-10,gnc,1.916,false
