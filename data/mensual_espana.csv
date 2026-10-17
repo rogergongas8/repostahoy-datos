@@ -1261,9 +1261,9 @@ mes,combustible,precio_medio,mes_completo
 2026-09,gasolina_98,2.039,true
 2026-09,glp,1.093,true
 2026-09,gnc,1.821,true
-2026-10,diesel,1.896,false
-2026-10,diesel_premium,1.988,false
-2026-10,gasolina_95,1.792,false
+2026-10,diesel,1.895,false
+2026-10,diesel_premium,1.987,false
+2026-10,gasolina_95,1.791,false
 2026-10,gasolina_98,1.948,false
-2026-10,glp,1.095,false
-2026-10,gnc,1.916,false
+2026-10,glp,1.096,false
+2026-10,gnc,1.918,false
