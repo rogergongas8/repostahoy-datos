@@ -26,9 +26,9 @@ Los elabora [Reposta Hoy](https://www.repostahoy.es), un comparador independient
 |---|---|---:|---|---|
 | [`data/mensual_espana.csv`](data/mensual_espana.csv) | Media mensual de España (los 6 combustibles) | 1.268 | enero de 2007 | octubre de 2026 |
 | [`data/semanal_espana.csv`](data/semanal_espana.csv) | Media semanal de España (4 combustibles líquidos) | 64 | 11 de octubre de 2021 | 12 de octubre de 2026 |
-| [`data/diario_espana.csv`](data/diario_espana.csv) | Media diaria de España (4 combustibles líquidos) | 400 | 12 de julio de 2026 | 19 de octubre de 2026 |
+| [`data/diario_espana.csv`](data/diario_espana.csv) | Media diaria de España (4 combustibles líquidos) | 404 | 12 de julio de 2026 | 20 de octubre de 2026 |
 | [`data/semanal_provincias.csv`](data/semanal_provincias.csv) | Media semanal de cada provincia (4 combustibles líquidos) | 3.312 | 11 de octubre de 2021 | 12 de octubre de 2026 |
-| [`data/diario_provincias.csv`](data/diario_provincias.csv) | Media diaria de cada provincia (4 combustibles líquidos) | 20.700 | 12 de julio de 2026 | 19 de octubre de 2026 |
+| [`data/diario_provincias.csv`](data/diario_provincias.csv) | Media diaria de cada provincia (4 combustibles líquidos) | 20.907 | 12 de julio de 2026 | 20 de octubre de 2026 |
 <!-- /AUTO:COBERTURA -->
 
 Los ficheros de apoyo son [`provincias.csv`](data/provincias.csv) (las 52 provincias, con su nombre y si tienen impuestos propios sobre los carburantes) y [`combustibles.csv`](data/combustibles.csv) (los seis combustibles, con su unidad). Los metadatos, en formato [Data Package](https://datapackage.org), están en [`datapackage.json`](datapackage.json).
