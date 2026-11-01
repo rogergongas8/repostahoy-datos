@@ -9,9 +9,9 @@ Los elabora [Reposta Hoy](https://www.repostahoy.es), un comparador independient
 ## En cifras
 
 <!-- AUTO:CIFRAS -->
-- **Diésel**: 1,871 € de media en septiembre de 2026; 1,405 € hace 1 año (+33,2 %); 1,277 € hace 5 años (+46,5 %); 1,027 € hace 10 años (+82,2 %).
+- **Diésel**: 1,893 € de media en octubre de 2026; 1,398 € hace 1 año (+35,4 %); 1,350 € hace 5 años (+40,2 %); 1,061 € hace 10 años (+78,4 %).
   El mes más caro de la serie fue junio de 2022 (2,023 €) y el más barato, marzo de 2009 (0,831 €).
-- **Gasolina 95**: 1,881 € de media en septiembre de 2026; 1,474 € hace 1 año (+27,6 %); 1,426 € hace 5 años (+31,9 %); 1,152 € hace 10 años (+63,3 %).
+- **Gasolina 95**: 1,771 € de media en octubre de 2026; 1,464 € hace 1 año (+21,0 %); 1,475 € hace 5 años (+20,1 %); 1,179 € hace 10 años (+50,2 %).
   El mes más caro de la serie fue junio de 2022 (2,098 €) y el más barato, diciembre de 2008 (0,853 €).
 
 Última semana completa (del 19 de octubre al 25 de octubre de 2026), sin Canarias, Ceuta ni Melilla:
@@ -26,9 +26,9 @@ Los elabora [Reposta Hoy](https://www.repostahoy.es), un comparador independient
 |---|---|---:|---|---|
 | [`data/mensual_espana.csv`](data/mensual_espana.csv) | Media mensual de España (los 6 combustibles) | 1.268 | enero de 2007 | octubre de 2026 |
 | [`data/semanal_espana.csv`](data/semanal_espana.csv) | Media semanal de España (4 combustibles líquidos) | 76 | 11 de octubre de 2021 | 19 de octubre de 2026 |
-| [`data/diario_espana.csv`](data/diario_espana.csv) | Media diaria de España (4 combustibles líquidos) | 444 | 12 de julio de 2026 | 30 de octubre de 2026 |
+| [`data/diario_espana.csv`](data/diario_espana.csv) | Media diaria de España (4 combustibles líquidos) | 448 | 12 de julio de 2026 | 31 de octubre de 2026 |
 | [`data/semanal_provincias.csv`](data/semanal_provincias.csv) | Media semanal de cada provincia (4 combustibles líquidos) | 3.933 | 11 de octubre de 2021 | 19 de octubre de 2026 |
-| [`data/diario_provincias.csv`](data/diario_provincias.csv) | Media diaria de cada provincia (4 combustibles líquidos) | 22.977 | 12 de julio de 2026 | 30 de octubre de 2026 |
+| [`data/diario_provincias.csv`](data/diario_provincias.csv) | Media diaria de cada provincia (4 combustibles líquidos) | 23.184 | 12 de julio de 2026 | 31 de octubre de 2026 |
 <!-- /AUTO:COBERTURA -->
 
 Los ficheros de apoyo son [`provincias.csv`](data/provincias.csv) (las 52 provincias, con su nombre y si tienen impuestos propios sobre los carburantes) y [`combustibles.csv`](data/combustibles.csv) (los seis combustibles, con su unidad). Los metadatos, en formato [Data Package](https://datapackage.org), están en [`datapackage.json`](datapackage.json).
